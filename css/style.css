@@ -55,7 +55,7 @@ img {
 }
 
 .hero {
-  background: url(../assets/images/hero-bg.jpg) no-repeat center center/cover;
+  background: url("../assets/images/hero-bg.jpg") no-repeat center center/cover;
 }
 
 .main-header {
@@ -283,6 +283,12 @@ img {
   background-color: var(--brand-clr);
   color: var(--light-clr);
   transition: background-color 0.5s;
+  display: inline-flex;
+}
+
+.download .btn-brand i {
+  align-self: center;
+  margin-right: 0.8rem;
 }
 
 .download .btn-brand {
@@ -334,6 +340,10 @@ img {
   margin: 0 0.8rem;
 }
 
+.chevron-cursor {
+  cursor: pointer;
+}
+
 .sm-link {
   font-size: 2.3rem;
   color: inherit;
@@ -362,6 +372,10 @@ img {
   color: inherit;
 }
 
+.footer-link:hover {
+  text-decoration: underline;
+}
+
 .divider {
   grid-column: 1/-1;
   height: 1px;
@@ -375,13 +389,13 @@ img {
   justify-content: space-between;
 }
 
-.main-footer .btn-brand {
-  line-height: 1;
+.btn-footer-login {
+  line-height: 1.8;
 }
 
 /* Media Queries */
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   :root {
     --primary-title-font-size: 5.6rem;
     --secondary-title-font-size: 4.8rem;
@@ -435,7 +449,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   :root {
     --num-of-grid-columns: 12;
     --section-spacing: 12rem 4rem;
