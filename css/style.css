@@ -64,7 +64,7 @@ img {
 }
 
 .container {
-  width: var(--container-width);
+/*   width: var(--container-width); */
   margin: 0 auto;
 }
 
