@@ -1,6 +1,6 @@
 # Discord-Clone
 
-This is a simplified cloned version of the original Discord ( https://www.discord.com ) website. This simplified cloned version was created using HTML & CSS.
+This is a simplified cloned version of the original Discord ( https://www.discord.com ) website. This simplified cloned version was created using HTML & CSS. The live previews is available too!
 
 ## Screenshots
 
